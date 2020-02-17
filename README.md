@@ -20,3 +20,5 @@ Burned some time chasing down why the nested Venue objects were seemingly null c
 -better general design, proper handling of the missing venue data, prettier loading/error states (actually there is no error state - so just having one at all)
 
 -better tests
+
+-setup preferred master/dev/feature branching but that seemed silly for the given task - I do favor good branching strategies!
