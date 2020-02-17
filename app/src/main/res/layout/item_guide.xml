@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/guide_icon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignTop="@id/guide_name"
+        android:layout_alignBottom="@id/guide_end_date"
+        android:layout_marginEnd="16dp"
+        android:scaleType="fitCenter"
+        tools:src="@drawable/test" />
+
+    <TextView
+        android:id="@+id/guide_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/guide_icon"
+        tools:text="[name]" />
+
+    <TextView
+        android:id="@+id/guide_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/guide_name"
+        android:layout_marginTop="4dp"
+        android:layout_toEndOf="@id/guide_icon"
+        tools:text="[city, state]" />
+
+    <TextView
+        android:id="@+id/guide_end_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/guide_location"
+        android:layout_marginTop="4dp"
+        android:layout_toEndOf="@id/guide_icon"
+        tools:text="[end_date]" />
+
+</RelativeLayout>
