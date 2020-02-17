@@ -12,7 +12,7 @@ Glide - also used because most familiar, and picasso/UIL are dead, don't see a r
 
 Burned some time chasing down why the nested Venue objects were seemingly null coming out of the deserializer, hit the endpoint with postman, saw they were just empty, neat! Android studio also still leaves some obstacles in getting a proper new kotlin project setup without issue.
 
-####Things I would've liked to do with more time:
+#### Things I would've liked to do with more time:
 -setup better organization in general, data classes in their own packages and not glommed together into the service class file
 
 -apply some better code patterns, mvvm/mvc/mvp or something, just did it fast & loose
